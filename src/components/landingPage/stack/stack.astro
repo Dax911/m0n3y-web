@@ -1,0 +1,80 @@
+---
+import { Fragment } from "react";
+import PageSection from "../pageSection.astro";
+import Feature from "./card.astro";
+---
+
+<PageSection size={"24"} id="stack">
+  <div class="mx-auto max-w-7xl px-4 pb-12 text-t3-purple-100 sm:px-6 lg:px-8">
+    <div class="mb-10 md:text-center">
+      <h2
+        class="text-xl font-semibold text-t3-purple-200 md:text-2xl lg:text-2xl"
+      >
+        Finally...
+      </h2>
+      <h3
+        class="mt-2 text-3xl font-bold tracking-tight text-t3-purple-50 md:text-5xl lg:text-5xl"
+      >
+        Technical Innovation, Not Hype
+      </h3>
+      <p class="mt-4 text-base text-t3-purple-200 md:text-lg">
+        Configuration out of the box. Ready to go.
+      </p>
+    </div>
+    <div>
+      <div
+        class="space-y-10 sm:grid sm:grid-flow-col sm:grid-cols-2 sm:grid-rows-3 sm:gap-x-6 sm:gap-y-14 sm:space-y-0 md:grid-cols-3 md:grid-rows-2 lg:gap-x-8"
+      >
+        <Feature title="Solana" href="https://www.solana.com/">
+          <Fragment slot="description">
+            Bring blockchain to the people. Solana supports experiences for
+            power users, new consumers, and everyone in between. Solana's native
+            token, SOL, is used for transaction fees and staking rewards. The
+            network is designed to be scalable, secure, and energy-efficient,
+            making it an attractive option for developers and businesses looking
+            to build decentralized applications (dApps).
+          </Fragment>
+        </Feature>
+
+        <Feature title="Pump.fun Integration" href="https://pump.fun">
+          <Fragment slot="description">
+            Seamless integration with the Pump.fun contract as the governance
+            token, enabling community-driven decision making and true
+            decentralization. Stay informed about the latest updates and
+            developments on the upcoming DAO governance.
+          </Fragment>
+        </Feature>
+
+        <Feature title="Zero Knowledge Proofs" href="https://zkp.science/">
+          <Fragment slot="description">
+            Zero Knowledge Proofs (ZKPs) are revolutionizing blockchain security
+            and privacy. They allow verification of information without
+            revealing underlying data, enabling private transactions, scalable
+            solutions, and enhanced data protection. ZKPs are crucial for
+            developing next-generation decentralized applications (dApps) that
+            meet stringent privacy and efficiency requirements.
+          </Fragment>
+        </Feature>
+
+        <Feature title="Offline-First Architecture" href="#">
+          <Fragment slot="description">
+            Designed for real-world usability, our system allows offline token
+            minting and local transfers via Bluetooth/NFC, with private
+            reconciliation through zero-knowledge proofs when back online.
+          </Fragment>
+        </Feature>
+
+        <Feature title="zkSNARKs" href="https://z.cash/technology/zksnarks/">
+          <Fragment slot="description">
+            zkSNARKs (Zero-Knowledge Succinct Non-Interactive Argument of
+            Knowledge) are a specific type of zero-knowledge proof used in
+            blockchain projects like Zcash. They allow for efficient
+            verification of computations without revealing inputs, enhancing
+            privacy in transactions and smart contracts while maintaining the
+            integrity and transparency of the blockchain.
+          </Fragment>
+        </Feature>
+      </div>
+    </div>
+  </div>
+</PageSection>

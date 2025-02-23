@@ -1,0 +1,42 @@
+---
+import CliPreview from "./cli";
+import PageSection from "./pageSection.astro";
+---
+
+<PageSection
+  className="grid grid-cols-1 xl:grid-cols-2 gap-8 items-center mx-auto max-w-7xl px-4 pb-12 sm:px-6 lg:px-8 lg:grid lg:gap-x-8 xl:gap-x-12"
+  size={"24"}
+  id="about"
+>
+  <div
+    class="mx-auto flex max-w-[800px] flex-col gap-2 bg-gradient-to-br from-[#] md:gap-4 xl:max-w-full"
+  >
+    <h2
+      class="mb-0 w-full text-3xl font-bold text-t3-purple-50 md:text-5xl lg:text-5xl"
+    >
+      Revolutionizing cryptocurrency with privacy, simplicity, and real economic
+      focus.
+    </h2>
+    <h3 class="mb-2 text-xl">
+      Forget speculative tokens and VC-backed "decentralization." Monopoly M0N3Y
+      is the digital cash cryptocurrency was meant to be:
+    </h3>
+    <p
+      class="mx-auto max-w-3xl text-base text-t3-purple-200 md:text-xl lg:text-xl xl:text-xl"
+    >
+      <ul class="feature-list lg:text-xl xl:text-xl">
+        <li>* True privacy through zero-knowledge proofs</li>
+        <li>* Offline-first architecture for real-world usability</li>
+        <li>* Anti-speculation measures built into the protocol</li>
+        <li>* Genuine decentralization, not just buzzwords</li>
+      </ul>
+    </p>
+  </div>
+  <div class="min-h-[300px] md:min-h-[400px]">
+    <CliPreview client:only="react" />
+  </div>
+  <div
+    class="mx-auto mt-6 flex max-w-[800px] flex-col gap-2 md:gap-4 xl:max-w-full"
+  >
+  </div>
+</PageSection>
