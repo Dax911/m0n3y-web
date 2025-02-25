@@ -1,4 +1,4 @@
 
 User-agent: *
 Allow: /
-Sitemap: https://dax.so/sitemap-index.xml
+Sitemap: https://monopoly.skill-issue.dev/sitemap-index.xml
