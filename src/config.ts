@@ -1,13 +1,13 @@
 export const SITE = {
-  title: "Build Dax App",
-  description: "The best way to start a full-stack, Web3 app.",
+  title: "Monopoly M0N3Y",
+  description: "True Digital Cash for the 21st Century",
   defaultLanguage: "en_US",
 };
 
 export const OPEN_GRAPH = {
   image: {
-    src: "./images/Thumbnail.jpg",
-    alt: "Create Web3 App: The best way to start a new crypto project.",
+    src: "./images/monopolymanD4_1.png",
+    alt: "Monopoly M0N3Y: True Digital Cash",
   },
   twitter: "haydenaylor",
 };
@@ -79,6 +79,12 @@ export const SIDEBAR: Sidebar = {
       { text: "Introduction", link: "en/introduction" },
       { text: "Getting Started", link: "en/start" },
       { text: "FAQ", link: "en/faq" },
+    ],
+    Contributing: [
+      {
+        text: "How to contribute",
+        link: "en/contributing",
+      },
     ],
   },
 };
