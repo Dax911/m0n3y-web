@@ -10,7 +10,7 @@ import remarkCodeTitles from "remark-code-titles";
 
 /** @link https://astro.build/config */
 export default defineConfig({
-  site: `https://beta.dax.so/`,
+  site: `https://m0n3y.skill-issue.dev/`,
   markdown: {
     remarkPlugins: [remarkCodeTitles],
     rehypePlugins: [

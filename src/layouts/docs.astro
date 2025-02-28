@@ -62,7 +62,18 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`;
         html.classList.remove("light");
       }
     </script>
-        <script defer data-domain="analytics.dax.so" src="https://plausible.io/js/script.js"></script>
+    <script
+      defer
+      data-domain="m0n3y.skill-issue.dev"
+      src="https://plausible.skill-issue.dev/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js"
+    ></script>
+    <script>
+      window.plausible =
+        window.plausible ||
+        function () {
+          (window.plausible.q = window.plausible.q || []).push(arguments);
+        };
+    </script>
   </head>
 
   <body
@@ -123,7 +134,7 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`;
             () => {
               navigator.clipboard.writeText(href);
             },
-            false,
+            false
           );
         });
       }
