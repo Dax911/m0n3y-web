@@ -79,6 +79,7 @@ export const SIDEBAR: Sidebar = {
       { text: "Introduction", link: "en/introduction" },
       { text: "Getting Started", link: "en/start" },
       { text: "FAQ", link: "en/faq" },
+      { text: "Governance", link: "en/govern" },
     ],
     Contributing: [
       {

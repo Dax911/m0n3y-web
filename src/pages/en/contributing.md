@@ -16,13 +16,13 @@ This documentation site leverages Astro's modern static site capabilities to pro
 ### The Rules
 
 - Be respectful, civil, and open-minded.
-- Before opening a new pull request, try searching through the [issue tracker](https://github.com/your-repo/issues) for known issues or fixes.
+- Before opening a new pull request, try searching through the [issue tracker](https://github.com/Dax911/m0n3y-web/issues) for known issues or fixes.
 - This is a place for collaboration and learning not memes or jokes.
 - If you want to make code changes based on your personal opinion(s), make sure you open an issue first describing the changes you want to make, and open a pull request only when your suggestions get approved by maintainers.
 
 ### Getting Started
 
-After you have checked to make sure your issue or change is not already being worked on, you should open your own [issue](https://github.com/your-repo/issues/new) describing the problem or feature you want to work on.
+After you have checked to make sure your issue or change is not already being worked on, you should open your own [issue](https://github.com/Dax911/m0n3y-web/issues/new) describing the problem or feature you want to work on.
 
 To make a contribution, follow these steps:
 
@@ -33,7 +33,7 @@ To make a contribution, follow these steps:
 5. Push your changes to your forked repository.
 6. Create a pull request to the original repository.
 
-Be sure and check the [issue tracker](https://github.com/your-repo/issues) for feedback on your changes.
+Be sure and check the [issue tracker](https://github.com/Dax911/m0n3y-web/issues) for feedback on your changes.
 
 
 ## Code Guidelines
@@ -60,6 +60,12 @@ This website uses [Astro](https://astro.build/) and [Tailwind CSS](https://tailw
 - `dist`: Generated output after building the project.
 - `node_modules`: Dependencies installed via npm.
 
-To learn more about the specifics of this framework and styling, refer to the official documentation for [Astro](https://astro.build/docs/) and [Tailwind CSS](https://tailwindcss.com/docs/).
+### Learning Resources
+
+- [Astro Documentation](https://astro.build/docs/)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs/)
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web)
+
+ To learn more about the specifics of this framework and styling, refer to the official documentation for [Astro](https://astro.build/docs/) and [Tailwind CSS](https://tailwindcss.com/docs/).
 
 If you have any questions or need further assistance, feel free to reach out to me or the community.
