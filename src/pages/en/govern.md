@@ -10,9 +10,9 @@ This page provides a detailed overview of key decisions and options for building
 
 ## Understanding DAO Fundamentals
 
-Decentralized Autonomous Organizations represent a paradigm shift in organizational governance, leveraging blockchain technology to create transparent and democratic decision-making processes. DAOs operate through smart contracts that encode rules and policies, enabling automation and removing the need for traditional hierarchical management. This foundation allows for community-driven governance where decisions are made collectively rather than by a central authority. The core principle underlying DAOs is that they create a neutral environment free from intermediaries, allowing for direct participation in governance by stakeholders[1].
+Decentralized Autonomous Organizations represent a paradigm shift in organizational governance, leveraging blockchain technology to create transparent and democratic decision-making processes. DAOs operate through smart contracts that encode rules and policies, enabling automation and removing the need for traditional hierarchical management. This foundation allows for community-driven governance where decisions are made collectively rather than by a central authority. The core principle underlying DAOs is that they create a neutral environment free from intermediaries, allowing for direct participation in governance by stakeholders.
 
-Smart contracts form the technical backbone of DAOs, automatically implementing predetermined rules without requiring significant intervention. This automation ensures predictable outcomes and reduces the potential for arbitrary decision-making or power plays that often occur in traditional organizations. By understanding this fundamental structure, we can better appreciate how different governance models and voting mechanisms build upon this foundation to create various DAO implementations[1].
+Smart contracts form the technical backbone of DAOs, automatically implementing predetermined rules without requiring significant intervention. This automation ensures predictable outcomes and reduces the potential for arbitrary decision-making or power plays that often occur in traditional organizations. By understanding this fundamental structure, we can better appreciate how different governance models and voting mechanisms build upon this foundation to create various DAO implementations.
 
 ### Key Characteristics to Consider
 
@@ -70,7 +70,7 @@ DAO membership structures determine who can participate in governance and how th
 
 Token-based membership represents the most common approach, where governance rights are acquired by purchasing the DAO's token on exchanges or through direct distribution. This model creates permissionless participation where anyone can join by acquiring tokens without requiring approval from existing members. Popular DeFi protocols frequently implement this approach, creating liquid governance rights that can be traded or transferred between participants.
 
-This membership model offers advantages in accessibility and scalability, allowing the DAO to potentially grow very large with minimal administrative overhead. However, it may lead to speculative participation where members focus on token value rather than meaningful governance contribution. The financial barrier to entry can also exclude potential valuable contributors who lack resources to acquire significant token holdings[4].
+This membership model offers advantages in accessibility and scalability, allowing the DAO to potentially grow very large with minimal administrative overhead. However, it may lead to speculative participation where members focus on token value rather than meaningful governance contribution. The financial barrier to entry can also exclude potential valuable contributors who lack resources to acquire significant token holdings.
 
 ### Share-based Membership
 
