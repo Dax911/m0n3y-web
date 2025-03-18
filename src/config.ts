@@ -80,6 +80,7 @@ export const SIDEBAR: Sidebar = {
       { text: "Getting Started", link: "en/start" },
       { text: "FAQ", link: "en/faq" },
       { text: "Governance", link: "en/govern" },
+      { text: "Voting Proposal", link: "en/voting" },
     ],
     Contributing: [
       {
