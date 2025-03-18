@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-const responseSchema = z.array([]);
+const responseSchema = z.array([z.object()]);
 
 const chainId = "solana";
 const tokenAddresses = "ANNTWQsQ9J3PeM6dXLjdzwYcSzr51RREWQnjuuCEpump";
